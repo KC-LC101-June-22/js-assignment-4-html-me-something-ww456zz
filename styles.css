@@ -1,1 +1,20 @@
 /* Write your CSS here! */
+h2 {  
+color: goldenrod;
+}
+
+#ratimg {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 650px;
+   
+}
+
+body {
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#intro {
+    position: relative;
+}
