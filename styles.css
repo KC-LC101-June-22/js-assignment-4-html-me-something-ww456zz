@@ -1,20 +1,68 @@
 /* Write your CSS here! */
+#all {
+    width: 850px;
+    height: auto;
+    background-color: hsla(78, 23%, 69%, 0.493);
+    margin: 0 auto;
+}
+#mainHeading {
+    color: red;
+    align-items: center;
+    margin-left: 25%;
+    padding-top: 2%;
+}
+section {
+    width: 600px;
+    height: 200px;
+    background-color: antiquewhite;
+    margin-left: 25px;
+    
+}
+#intro {
+    width:850px;
+    height: fit-content;
+    background-color: hsla(70, 5%, 52%, 0.555);
+}
 h2 {  
-color: goldenrod;
+color: rgb(228, 206, 10);
 }
 
-#ratimg {
+#ratimg, #oximg, #tigerimg, #rabbitimg, #dragonimg, #snakeimg, #horseimg, #goatimg, #monkeyimg, #roosterimg, #dogimg, #pigimg {
+    width: 200px;
+    height: 200px;
     position: absolute;
-    margin-top: -50px;
-    margin-left: 650px;
-   
+    margin-top: -51px;
+    margin-left: 600px;
 }
 
 body {
-    margin-left: 50px;
-    margin-bottom: 100px;
+    margin: 80px;
+    display: block;
+    background-image: url('./pics/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
 }
 
-#intro {
-    position: relative;
+.funParagraph, ol {
+  color: rgb(39, 42, 221);
+  margin-left: 330px;
+  margin-top: -2900px;
+  
+}
+ol a {
+    text-decoration: none;
+    color: rgb(39, 42, 221);
+}
+ol a:hover {
+    color:gold;
+    text-decoration:underline;
+    font-style: oblique;
+}
+ol a:active {
+    color:rgb(170, 15, 15);
+    text-decoration: underline;
+    text-decoration-color: blue;
 }
