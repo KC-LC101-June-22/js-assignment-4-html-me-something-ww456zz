@@ -46,10 +46,12 @@ body {
     
 }
 
+li {
+    display: inline;
+}
 .funParagraph, ol {
   color: rgb(39, 42, 221);
-  margin-left: 330px;
-  margin-top: -2900px;
+
   
 }
 ol a {
