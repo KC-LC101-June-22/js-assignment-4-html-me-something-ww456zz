@@ -36,7 +36,7 @@ color: rgb(228, 206, 10);
 }
 
 body {
-    margin: 80px;
+    margin: 8px;
     display: block;
     background-image: url('./pics/background.jpg');
     background-size: cover;
@@ -50,7 +50,7 @@ li {
     display: inline;
 }
 .funParagraph, ol {
-  color: rgb(39, 42, 221);
+  color: green;
 
   
 }
